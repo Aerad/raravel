@@ -8,7 +8,7 @@
 
             <div class="col mb-3">Login</div>
 
-            <form action="" method="post">
+            <form action="{{ route('login')}}" method="post">
                 @csrf
 
                 <input class="form-control mb-3" type="email" name="email" placeholder="Email" id="">

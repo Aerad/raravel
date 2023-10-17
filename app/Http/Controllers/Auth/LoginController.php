@@ -5,9 +5,8 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class AuthController extends Controller
+class LoginController extends Controller
 {
-
     /**
      * Display a listing of the resource.
      */
@@ -21,7 +20,7 @@ class AuthController extends Controller
      */
     public function create()
     {
-        return view('auth.register');
+        //
     }
 
     /**

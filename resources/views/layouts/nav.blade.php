@@ -8,12 +8,12 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link {{ Route::currentRouteName() == 'auth.index' ? 'active' : '' }}"
-                        aria-current="page" href="{{ route('auth.index') }}">Login</a>
+                    <a class="nav-link {{ Route::currentRouteName() == 'auth.login.index' ? 'active' : '' }}"
+                        aria-current="page" href="{{ route('auth.login.index') }}">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ Route::currentRouteName() == 'auth.create' ? 'active' : '' }}"
-                        href="{{ route('auth.create') }}">Register</a>
+                    <a class="nav-link {{ Route::currentRouteName() == 'auth.register.index' ? 'active' : '' }}"
+                        href="{{ route('auth.register.index') }}">Register</a>
                 </li>
 
 

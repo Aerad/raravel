@@ -5,15 +5,14 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class AuthController extends Controller
+class VerificationController extends Controller
 {
-
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('auth.login');
+        //
     }
 
     /**
@@ -21,7 +20,7 @@ class AuthController extends Controller
      */
     public function create()
     {
-        return view('auth.register');
+        //
     }
 
     /**
