@@ -1,14 +1,39 @@
 @extends('layouts.app', ['title' => 'Profile'])
 
 @section('content')
+    <style>
+        .login {
+            color: black;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .box1 {
+            background: #4ADEDE;
+            margin-top: 150px;
+
+        }
+
+        .button1 {
+            color: black;
+            background: #1AA7EC;
+            border-color: black;
+        }
+
+        .forgot {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
     <div class="container mt-3">
 
 
-        <div class="col-5 mx-auto bg-light p-3 mt-5">
+        <div class=" box1 col-5 mx-auto p-3">
 
-            <div class="col mb-3">Login</div>
+            <div class=" login col mb-3">LOGIN</div>
 
-            <form action="{{ route('login')}}" method="post">
+            <form action="{{ route('auth.login.store') }}" method="post">
                 @csrf
 
                 <input class="form-control mb-3" type="email" name="email" placeholder="Email" id="">
@@ -17,17 +42,19 @@
                 <div class="form-check mb-3">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="remember-me">
                     <label class="form-check-label" for="flexCheckDefault">
-                      Remember Me?
+                        Remember Me?
                     </label>
-                  </div>
+                </div>
 
 
-                <button class="btn btn-primary" type="submit">Login</button>
+                <button class="button1 btn" type="submit">Login</button>
                 <br>
-                <a href="">Forgot Password?</a>
-            </form>
 
+                <a class="forgot" href="">Forgot Password?</a>
+            </form>
         </div>
+
+    </div>
 
 
 

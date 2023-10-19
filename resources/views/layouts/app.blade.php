@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <title>index</title>
+
+    <style>
+        body {
+            background: #1E2F97;
+        }
+    </style>
 </head>
 
 <body>
