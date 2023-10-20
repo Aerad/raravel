@@ -10,14 +10,14 @@
         }
 
         .box1 {
-            background: #4ADEDE;
+            background: #FFF0DC;
             margin-top: 150px;
 
         }
 
         .button1 {
             color: black;
-            background: #1AA7EC;
+            background: #FEB72F;
             border-color: black;
         }
 

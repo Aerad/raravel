@@ -9,8 +9,24 @@
 
     <style>
         body {
-            background: #1E2F97;
+            background:#FFE5C1 ;
+
         }
+
+        .navbar {
+            background: #FFA629;
+    }
+    .color {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-family: cursive;
+    }
+
+    .name {
+        font-family: cursive;
+        font-size: 18px;
+    }
     </style>
 </head>
 
